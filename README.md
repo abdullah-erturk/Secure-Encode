@@ -50,7 +50,7 @@ güvenli bir şekilde kurtarır.
 2.  Paketlemek istediğiniz herhangi bir dosyayı (örn: `MySecretFile.zip`) `SecureEncode.bat` dosyasının üzerine **sürükleyip bırakın**.
 3.  Bir komut istemi açılacaktır. Güçlü bir şifre belirleyin ve `Enter`'a basın.
     * *(Şifresiz paketlemek için `Enter`'a basıp geçin.)*
-4.  İşlem tamamlandığında, aynı klasörde `MySecretFile.zip_decode.cmd` adında yeni bir dosya oluşacaktır.
+4.  İşlem tamamlandığında, aynı klasörde `MySecretFile_decode.cmd` adında yeni bir dosya oluşacaktır.
 
    ### 2. Decode (Dosyayı Kurtarma)
 
@@ -130,7 +130,7 @@ The process consists of two steps: ENCODING and DECODING.
 2.  **Drag and drop** any file you want to pack (e.g., `MySecretFile.zip`) onto the `SecureEncode.bat` file.
 3.  A command prompt will open. Set a strong password and press `Enter`.
     * *(To pack without a password, just press `Enter`.)*
-4.  When the process is complete, a new file named `MySecretFile.zip_decode.cmd` will be created in the same folder.
+4.  When the process is complete, a new file named `MySecretFile_decode.cmd` will be created in the same folder.
 
    ### 2. Decode (Recovering the File)
 
