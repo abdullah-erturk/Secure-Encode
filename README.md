@@ -1,5 +1,5 @@
 # SecureEncode 
-[Base64 Encrypt & Decrypt (AES-256 Encrypted)]
+**Base64 Encrypt & Decrypt (AES-256 Encrypted)**
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge)
 ![Tech](https://img.shields.io/badge/Tech-Batch_&_PowerShell-blue?style=for-the-badge)
