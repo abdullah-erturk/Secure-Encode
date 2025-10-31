@@ -7,6 +7,8 @@
 [![made-for-windows](https://img.shields.io/badge/Made%20for-Windows-00A4E3.svg?style=flat&logo=microsoft)](https://www.microsoft.com/)
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/Secure-Encode)
 
+![sample](https://github.com/abdullah-erturk/Secure-Encode/blob/main/preview.gif)
+
 Herhangi bir dosyayı isteğe bağlı **AES-256 parola koruması** ve **GZip sıkıştırması** ile kendi kendini açabilen `.cmd` arşivine dönüştüren bir Windows Batch betiği.
 
 A Windows Batch script that converts **any file** into a single, self-extracting `.cmd` archive, with optional **AES-256 password protection** and **GZip compression**.
