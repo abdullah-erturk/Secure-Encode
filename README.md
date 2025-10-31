@@ -46,7 +46,7 @@ güvenli bir şekilde kurtarır.
 
    ### 1. Encode (Dosyayı Paketleme)
 
-1.  Bu repodan `SecureEncode.bat` (veya projenizin ana `.bat` dosyası) betiğini indirin.
+1.  Bu repodan `SecureEncode.bat` betiğini indirin.
 2.  Paketlemek istediğiniz herhangi bir dosyayı (örn: `MySecretFile.zip`) `SecureEncode.bat` dosyasının üzerine **sürükleyip bırakın**.
 3.  Bir komut istemi açılacaktır. Güçlü bir şifre belirleyin ve `Enter`'a basın.
     * *(Şifresiz paketlemek için `Enter`'a basıp geçin.)*
@@ -126,7 +126,7 @@ The process consists of two steps: ENCODING and DECODING.
 
    ### 1. Encode (Packing the File)
 
-1.  Download the `SecureEncode.bat` (or your project's main `.bat` file) script from this repo.
+1.  Download the `SecureEncode.bat` script from this repo.
 2.  **Drag and drop** any file you want to pack (e.g., `MySecretFile.zip`) onto the `SecureEncode.bat` file.
 3.  A command prompt will open. Set a strong password and press `Enter`.
     * *(To pack without a password, just press `Enter`.)*
