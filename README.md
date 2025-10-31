@@ -90,7 +90,7 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 
 ## Lisans
 
-Bu proje MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+Bu proje MIT Lisansı altında dağıtılmaktadır.
 
 </details>
 
@@ -170,7 +170,7 @@ The security of this script is **100% dependent on the strength of the password 
 
 ## License
 
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
+This project is distributed under the MIT License.
 
 </details>
 
