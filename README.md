@@ -37,7 +37,7 @@ güvenli bir şekilde kurtarır.
 * **Büyük Dosya Desteği:** Yüksek boyutlu dosyaları (örn. 300MB+ dosyaları) `OutOfMemoryException` (Bellek Yetersiz) hatası vermeden işler. Base64 dönüşümü RAM yerine doğrudan dosyaya "akıtılır" (stream).
 * **Güvenli Şifre Girişi:** Hem kodlayıcı hem de çözücü betiklerde şifre girişi `***` karakterleri ile gizlenir.
 * **SHA256 Bütünlük Kontrolü:** Çözücü betik, dosyayı kurtardıktan sonra orijinal dosyanın SHA256 hash değerini kontrol ederek verinin bozulup bozulmadığını doğrular.
-* **Geniş Uyumluluk:** **Windows 7, 10 ve 11** üzerinde tam uyumlu çalışır.
+* **Geniş Uyumluluk:** **Windows 7, 8.1, 10,11 ve Server** üzerinde tam uyumlu çalışır.
 * **Bağımsızlık:** Harici bir yazılıma ihtiyaç duymaz, sadece Windows'un kendi Batch ve PowerShell (v2.0+) motorlarını kullanır.
 
 ## Nasıl Kullanılır?
@@ -117,7 +117,7 @@ This generated `.cmd` file contains your original file, compressed with GZip and
 * **Large File Support:** Processes large files (e.g., 300MB+ files) without throwing an `OutOfMemoryException`. The Base64 conversion is "streamed" directly to the file instead of being held in RAM.
 * **Secure Password Entry:** Password entry is masked with `***` characters in both the encoder and decoder scripts.
 * **SHA256 Integrity Check:** After recovering the file, the decoder script verifies the SHA256 hash of the original file to confirm the data was not corrupted.
-* **Wide Compatibility:** Fully compatible with **Windows 7, 10, and 11**.
+* **Wide Compatibility:** Fully compatible with **Windows 7, 8.1, 10, 11 and Server**.
 * **Zero Dependencies:** Requires no external software, using only Windows' native Batch and PowerShell (v2.0+) engines.
 
 ## How to Use
