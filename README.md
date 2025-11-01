@@ -90,10 +90,6 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 * [https://github.com/abdullah-erturk](https://github.com/abdullah-erturk)
 * [https://erturk.netlify.app](https://erturk.netlify.app)
 
-## Lisans
-
-Bu proje MIT Lisansı altında dağıtılmaktadır.
-
 </details>
 
 ---
@@ -169,11 +165,4 @@ The security of this script is **100% dependent on the strength of the password 
 **Abdullah ERTÜRK**
 * [https://github.com/abdullah-erturk](https://github.com/abdullah-erturk)
 * [https://erturk.netlify.app](https://erturk.netlify.app)
-
-## License
-
-This project is distributed under the MIT License.
-
 </details>
-
-
