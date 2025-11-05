@@ -99,7 +99,7 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 ## ⚙️ Bağımlılıklar
 
 * Windows 7, 8.1, 10, 11 veya Server (Windows 7 ve 8.1 için .NetFrameWork v4.5 gerekli)
-* PowerShell 5.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
+* PowerShell 2.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
 
 ## Yazar
 **Abdullah ERTÜRK**
@@ -188,7 +188,7 @@ The security of this script is **100% dependent on the strength of your chosen p
 ## ⚙️ Dependencies
 
 * Windows 7, 8.1, 10, 11, or Server (.NetFrameWork v4.5 required for Windows 7 and 8.1)
-* PowerShell 5.0 or later (Included by default on all Windows 10 and later systems)
+* PowerShell 2.0 or later (Included by default on all Windows 10 and later systems)
 
 ## Author
 **Abdullah ERTÜRK**
