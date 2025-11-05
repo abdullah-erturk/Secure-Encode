@@ -11,7 +11,7 @@
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/Secure-Encode)
 
 ![sample](https://github.com/abdullah-erturk/Secure-Encode/blob/main/preview.gif)
-**NOT: Ön izleme gif resmi eski versiyona ait / The preview gif image is from the old version**
+**Ön izleme gif resmi eski versiyona ait / The preview gif image is from the old version**
 
 Herhangi bir dosyayı isteğe bağlı **AES-256 parola koruması** ve **GZip sıkıştırması** ile kendi kendini açabilen `.cmd` arşivine dönüştüren bir Windows Batch betiği.
 
