@@ -98,9 +98,9 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 
 ## ⚙️ Bağımlılıklar
 
-* Windows 7, 8.1, 10, 11 veya Server
+* Windows 7, 8.1, 10, 11 veya Server (Windows 7 ve 8.1 için WMF v5.1 gerekli)
 * PowerShell 5.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
-* Windows 7 and 8.1 için indirme linki: : [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
+* Windows 7 ve 8.1 için indirme linki: : [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 
 ## Yazar
 **Abdullah ERTÜRK**
@@ -188,7 +188,7 @@ The security of this script is **100% dependent on the strength of your chosen p
 
 ## ⚙️ Dependencies
 
-* Windows 7, 8.1, 10, 11, or Server
+* Windows 7, 8.1, 10, 11, or Server (WMF v5.1 required for Windows 7 and 8.1)
 * PowerShell 5.0 or later (Included by default on all Windows 10 and later systems)
 * Download link for Windows 7 and 8.1: [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 
