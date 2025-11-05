@@ -100,7 +100,7 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 
 * Windows 7, 8.1, 10, 11 veya Server
 * PowerShell 5.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
-* Download link for Windows 7 and 8.1: * [https://www.microsoft.com/en-us/download/details.aspx?id=54616](https://www.microsoft.com/en-us/download/details.aspx?id=5461)
+* Windows 7 and 8.1 için indirme linki: : [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 
 ## Yazar
 **Abdullah ERTÜRK**
@@ -190,7 +190,7 @@ The security of this script is **100% dependent on the strength of your chosen p
 
 * Windows 7, 8.1, 10, 11, or Server
 * PowerShell 5.0 or later (Included by default on all Windows 10 and later systems)
-* Download link for Windows 7 and 8.1: * [https://www.microsoft.com/en-us/download/details.aspx?id=54616](https://www.microsoft.com/en-us/download/details.aspx?id=5461)
+* Download link for Windows 7 and 8.1: [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 
 ## Author
 **Abdullah ERTÜRK**
