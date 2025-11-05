@@ -99,7 +99,8 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 ## ⚙️ Bağımlılıklar
 
 * Windows 7, 8.1, 10, 11 veya Server
-* PowerShell 2.0 veya üzeri (Tüm Windows 7 ve üzeri sistemlerde varsayılan olarak bulunur)
+* PowerShell 5.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
+* Download link for Windows 7 and 8.1: * [https://www.microsoft.com/en-us/download/details.aspx?id=54616](https://www.microsoft.com/en-us/download/details.aspx?id=5461)
 
 ## Yazar
 **Abdullah ERTÜRK**
@@ -188,7 +189,8 @@ The security of this script is **100% dependent on the strength of your chosen p
 ## ⚙️ Dependencies
 
 * Windows 7, 8.1, 10, 11, or Server
-* PowerShell 2.0 or higher (Included by default on all Windows 7 and newer systems)
+* PowerShell 5.0 or later (Included by default on all Windows 10 and later systems)
+* Download link for Windows 7 and 8.1: * [https://www.microsoft.com/en-us/download/details.aspx?id=54616](https://www.microsoft.com/en-us/download/details.aspx?id=5461)
 
 ## Author
 **Abdullah ERTÜRK**
