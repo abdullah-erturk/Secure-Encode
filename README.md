@@ -1,7 +1,7 @@
 <a href="https://buymeacoffee.com/abdullaherturk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-# SecureEncode 
-**SecureEncode (AES-256 Encrypted)**
+# SecureEncrypt 
+**SecureEncrypt (AES-256 Encrypted)**
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge)
 ![Tech](https://img.shields.io/badge/Tech-Batch_&_PowerShell-blue?style=for-the-badge)
@@ -24,7 +24,7 @@ A Windows Batch script that converts **any file** into a single, self-extracting
 
 ---
 
-# SecureEncode (AES-256 Encrypt & Decrypt)
+# SecureEncrypt (AES-256 Encrypt & Decrypt)
 
 ## Proje Hakkında
 
@@ -34,7 +34,7 @@ Oluşturulan bu `.cmd` dosyası, orijinal dosyanızı içinde (isteğe bağlı o
 
 ## ✨ Özellikler
 
-* **Betik Bütünlük Koruması:** Ana `SecureEncode.bat` betiği, çalıştırılmadan önce kendi dosya bütünlüğünü (SHA256) kontrol eder. Eğer betik değiştirilmiş veya bozulmuşsa, güvenlik nedeniyle çalışmayı durdurur.
+* **Betik Bütünlük Koruması:** Ana `SecureEncrypt.bat` betiği, çalıştırılmadan önce kendi dosya bütünlüğünü (SHA256) kontrol eder. Eğer betik değiştirilmiş veya bozulmuşsa, güvenlik nedeniyle çalışmayı durdurur.
 * **Sağ Tık Menüsü Entegrasyonu:** Betiğe çift tıklayarak, "Dosyayı Şifrele (Güvenli Kodlama AES-256)" seçeneğini (kilit simgesiyle birlikte) Windows sağ tık menüsüne ekleyen/kaldıran bir kurulum sihirbazı çalışır.
 * **Kendi Kendini Çözen (Self-Extracting):** Veriyi ve veriyi çözen mantığı tek bir `.cmd` dosyasında birleştirir.
 * **İsteğe Bağlı AES-256 Şifreleme:** Dosyanızı parola ile koruma seçeneği sunar.
@@ -54,20 +54,20 @@ Oluşturulan bu `.cmd` dosyası, orijinal dosyanızı içinde (isteğe bağlı o
 
 ### Yükleme (Önerilen Yöntem)
 
-1.  Bu repodan `SecureEncode.bat` betiğini indirin.
+1.  Bu repodan `SecureEncrypt.bat` betiğini indirin.
 2.  Betiğe **çift tıklayın**.
 3.  Yönetici (UAC) izni istendiğinde "Evet" deyin.
 4.  Kurulum menüsü göründüğünde, **E** (Evet) tuşuna basın.
 5.  Kurulum tamamlandığında, betik herhangi bir dosyaya sağ tıkladığınızda menüde (kilit simgesiyle) görünecektir.
 
-### 1. Encode (Dosyayı Paketleme)
+### 1. Encrypt (Dosyayı Paketleme)
 
 **Yöntem 1: Sağ Tık ile (Kurulum Gerekli)**
 1.  Paketlemek istediğiniz herhangi bir dosyaya **sağ tıklayın**.
 2.  **Dosyayı Şifrele (Güvenli Kodlama AES-256)** seçeneğine tıklayın.
 
 **Yöntem 2: Sürükle-Bırak (Kurulum Gerekmez)**
-1.  Paketlemek istediğiniz herhangi bir dosyayı (örn: `MySecretFile.zip`) `SecureEncode.bat` dosyasının üzerine **sürükleyip bırakın**.
+1.  Paketlemek istediğiniz herhangi bir dosyayı (örn: `MySecretFile.zip`) `SecureEncrypt.bat` dosyasının üzerine **sürükleyip bırakın**.
 
 **İki yöntem için de ortak adımlar:**
 1.  Bir komut istemi açılacaktır. Güçlü bir şifre belirleyin ve **Enter**'a basın. (Şifresiz, sadece ham binary olarak paketlemek için **Enter**'a basıp geçin.)
@@ -117,14 +117,14 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 
 ## About the Project
 
-This project is an "Encoder" script that takes any file and converts it into a single, **self-extracting** Windows command script (.cmd).
+This project is an "Encrypt" script that takes any file and converts it into a single, **self-extracting** Windows command script (.cmd).
 
 This generated `.cmd` file contains your original file, either (optionally) **AES-256 encrypted** or as **raw, unencrypted binary data**. When you run this `.cmd` file on any Windows 7, 8.1, 10, 11 or Server OS, it will (if password-protected) prompt you for the password and securely recover the original file.
 
 ## ✨ Features
 
-* **Script Integrity Protection:** The main `SecureEncode.bat` script verifies its own file integrity (SHA256) before running. If the script has been modified or corrupted, it will stop execution for security.
-* **Right-Click Menu Integration:** Double-clicking the script runs an installation wizard that adds/removes an "Encrypt File (SecureEncode AES-256)" option (complete with a **lock icon**) to the Windows right-click menu.
+* **Script Integrity Protection:** The main `SecureEncrypt.bat` script verifies its own file integrity (SHA256) before running. If the script has been modified or corrupted, it will stop execution for security.
+* **Right-Click Menu Integration:** Double-clicking the script runs an installation wizard that adds/removes an "Encrypt File (SecureEncrypt AES-256)" option (complete with a **lock icon**) to the Windows right-click menu.
 * **Self-Extracting:** Combines the data and the extraction logic into a single `.cmd` file.
 * **Optional AES-256 Encryption:** Provides the option to protect your file with a password.
     * **If a password is provided:** The file is encrypted using **AES-256**, **PBKDF2** (10,000 iterations), and a random **Salt/IV**.
@@ -143,7 +143,7 @@ This generated `.cmd` file contains your original file, either (optionally) **AE
 
 ### Installation (Recommended Method)
 
-1.  Download the `SecureEncode.bat` script from this repository.
+1.  Download the `SecureEncrypt.bat` script from this repository.
 2.  **Double-click** the script.
 3.  Say "Yes" to the Administrator (UAC) prompt.
 4.  When the installation menu appears, press **Y** (Yes).
@@ -153,10 +153,10 @@ This generated `.cmd` file contains your original file, either (optionally) **AE
 
 **Method 1: Right-Click (Requires Installation)**
 1.  **Right-click** on any file you want to pack.
-2.  Click the **Encrypt File (SecureEncode AES-256)** option.
+2.  Click the **Encrypt File (SecureEncrypt AES-256)** option.
 
 **Method 2: Drag-and-Drop (No Installation Needed)**
-1.  **Drag** your file (e.g., `MySecretFile.zip`) and **drop** it onto the `SecureEncode.bat` script file.
+1.  **Drag** your file (e.g., `MySecretFile.zip`) and **drop** it onto the `SecureEncrypt.bat` script file.
 
 **Common Steps for Both Methods:**
 1.  A command prompt will open. Set a strong password and press **Enter**. (Press **ENTER** to skip for unencrypted, raw binary packing.)
