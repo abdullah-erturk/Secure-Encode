@@ -100,7 +100,7 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 
 * Windows 7, 8.1, 10, 11 veya Server (Windows 7 ve 8.1 için WMF v5.1 gerekli)
 * PowerShell 5.0 veya üzeri (Tüm Windows 10 ve üzeri sistemlerde varsayılan olarak bulunur)
-* Windows 7 ve 8.1 için indirme linki: : [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
+* Windows 7 ve 8.1 için indirme linki: [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 
 ## Yazar
 **Abdullah ERTÜRK**
