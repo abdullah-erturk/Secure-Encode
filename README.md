@@ -46,7 +46,7 @@ Oluşturulan bu `.cmd` dosyası, orijinal dosyanızı içinde (isteğe bağlı o
 * **Güvenli Şifre Girişi:** Hem kodlayıcı hem de çözücü betiklerde şifre girişi `***` karakterleri ile gizlenir.
 * **SHA256 Bütünlük Kontrolü:** Kod çözücü betik, dosyayı kurtardıktan sonra orijinal dosyanın SHA256 hash değerini kontrol ederek verinin bozulup bozulmadığını doğrular.
 * **Unicode Dosya Adı Desteği:** Orijinal dosya adı (özel karakterler ve Unicode dahil) kod çözücü betiğin içinde Base64 olarak saklanır ve kurtarılır.
-* **Salt Okunur Çıktı:** Oluşturulan `_decode.cmd` dosyası, yanlışlıkla düzenlenmeyi önlemek için 'Salt Okunur' olarak ayarlanır.
+* **Salt Okunur Çıktı:** Oluşturulan `_decrypt.cmd` dosyası, yanlışlıkla düzenlenmeyi önlemek için 'Salt Okunur' olarak ayarlanır.
 * **Geniş Uyumluluk:** Windows 7, 8.1, 10, 11 ve Server üzerinde tam uyumlu çalışır.
 * **Bağımsızlık:** Harici bir yazılıma ihtiyaç duymaz, sadece Windows'un kendi Batch ve PowerShell (v2.0+) motorlarını kullanır.
 
@@ -71,11 +71,11 @@ Oluşturulan bu `.cmd` dosyası, orijinal dosyanızı içinde (isteğe bağlı o
 
 **İki yöntem için de ortak adımlar:**
 1.  Bir komut istemi açılacaktır. Güçlü bir şifre belirleyin ve **Enter**'a basın. (Şifresiz, sadece ham binary olarak paketlemek için **Enter**'a basıp geçin.)
-2.  İşlem tamamlandığında, aynı klasörde `MySecretFile_decode.cmd` adında yeni bir dosya oluşacaktır.
+2.  İşlem tamamlandığında, aynı klasörde `MySecretFile_decrypt.cmd` adında yeni bir dosya oluşacaktır.
 
 ### 2. Decode (Dosyayı Kurtarma)
 
-1.  Oluşturduğunuz `..._decode.cmd` dosyasını alın ve (e-posta, USB vb. ile) hedef makineye taşıyın.
+1.  Oluşturduğunuz `..._decrypt.cmd` dosyasını alın ve (e-posta, USB vb. ile) hedef makineye taşıyın.
 2.  Dosyaya **çift tıklayarak** çalıştırın.
 3.  Eğer şifrelediyseniz, komut istemi sizden şifreyi (yine `***` olarak gizli) isteyecektir. Doğru şifreyi girin.
 4.  Betik, orijinal dosyayı (örn: `MySecretFile.zip`) aynı klasöre kurtaracak ve dosya bütünlüğünü doğrulayacaktır.
@@ -118,7 +118,7 @@ Bu betiğin güvenliği, sizin seçtiğiniz parolanın gücüne **%100 bağlıd�
 ## About the Project
 
 This project is an "Encrypt" script that takes any file and converts it into a single, **self-extracting** Windows command script (.cmd).
-
+ _decrypt
 This generated `.cmd` file contains your original file, either (optionally) **AES-256 encrypted** or as **raw, unencrypted binary data**. When you run this `.cmd` file on any Windows 7, 8.1, 10, 11 or Server OS, it will (if password-protected) prompt you for the password and securely recover the original file.
 
 ## ✨ Features
@@ -135,7 +135,7 @@ This generated `.cmd` file contains your original file, either (optionally) **AE
 * **Secure Password Input:** Password entry is masked with `***` characters in both the encoder and decoder scripts.
 * **SHA256 Integrity Check:** After extraction, the decoder script verifies the SHA256 hash of the recovered file against the original hash to ensure the data is not corrupted.
 * **Unicode Filename Support:** The original filename (including special characters and Unicode) is preserved by storing it as Base64 within the decoder script.
-* **Read-Only Output:** The generated `_decode.cmd` file is set to 'Read-Only' to prevent accidental editing.
+* **Read-Only Output:** The generated `_decrypt.cmd` file is set to 'Read-Only' to prevent accidental editing.
 * **Wide Compatibility:** Fully compatible with Windows 7, 8.1, 10, 11, and Server.
 * **No Dependencies:** Requires no external software, using only native Windows Batch and PowerShell (v2.0+).
 
@@ -160,11 +160,11 @@ This generated `.cmd` file contains your original file, either (optionally) **AE
 
 **Common Steps for Both Methods:**
 1.  A command prompt will open. Set a strong password and press **Enter**. (Press **ENTER** to skip for unencrypted, raw binary packing.)
-2.  Once finished, a new file named `MySecretFile_decode.cmd` will be created in the same folder.
+2.  Once finished, a new file named `MySecretFile_decrypt.cmd` will be created in the same folder.
 
 ### 2. Decode (Recovering the File)
 
-1.  Take your generated `..._decode.cmd` file and move it to the target machine (via email, USB, etc.).
+1.  Take your generated `..._decrypt.cmd` file and move it to the target machine (via email, USB, etc.).
 2.  **Double-click** the file to run it.
 3.  If you encrypted it, the command prompt will ask for the password (again, masked with `***`). Enter the correct password.
 4.  The script will recover the original file (e.g., `MySecretFile.zip`) in the same folder and verify its integrity.
